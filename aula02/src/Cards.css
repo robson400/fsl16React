@@ -1,0 +1,17 @@
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px
+}
+
+.section-produtos{
+  display: flex;
+  min-height: calc(100vh - 180px);
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width:100%;
+  background-color: aqua;
+  padding: 20px 30px 50px 30px;
+}
