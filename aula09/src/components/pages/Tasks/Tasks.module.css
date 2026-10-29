@@ -1,0 +1,13 @@
+.container{
+    width: 100%;
+    max-width: var(--width-container);
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.listTasks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
