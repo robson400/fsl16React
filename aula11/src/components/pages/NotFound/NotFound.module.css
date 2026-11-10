@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    width:100%;
+    img{
+        width: 200px;
+    }
+    h1{
+        font-size: 3em;
+    }
+    p::before{
+        content: "ERROR: ";
+        color: red;
+        font-weight: 900;
+    }
+    a{
+        text-decoration: none;
+        font-weight: 900;
+        color: black;
+        &:hover{
+            color: rgb(62, 62, 62);
+        }
+    }
+}
